@@ -1,3 +1,3 @@
 # ohtuvarasto
 
-![GHA workflow badge](https://github.com/alexalgrund/ohtuvarasto/actions/workflows/WORKFLOW-FILE/badge.svg)
+![Python tests](https://github.com/alexalgrund/ohtuvarasto/actions/workflows/main.yml/badge.svg)
