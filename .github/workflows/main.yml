@@ -26,6 +26,8 @@ jobs:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
       - name: Coverage report
         run: poetry run coverage xml
+      - name: Run Pylint
+        run: poetry run pylint src
       - name: Coverage report to Codecov
         uses: codecov/codecov-action@v5
         env:
